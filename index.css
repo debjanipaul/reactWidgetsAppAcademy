@@ -12,3 +12,49 @@ body {
     font-size: 30px;
     padding-left: 20px;
 }
+
+.tab {
+    width: 200px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.tab ul {
+    height: 30px;
+    margin: 0px;
+    display: flex;
+    width: 200px;
+    padding-left: 0px;
+}
+
+.tab li {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 5px;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(50, 169, 205);
+}
+
+.tab li:active {
+    border-bottom: none;
+}
+
+.tab li:hover {
+    background-color: black;
+    color: white
+}
+
+article {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(50, 169, 205);
+    color: white;
+    font-weight: bold;
+    border-top: none;
+    border: 1px solid black;
+    padding-top: 80px;
+    text-align: center;
+}
